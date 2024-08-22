@@ -1,11 +1,9 @@
-
 import React from "react";
 import { getPlatform } from ".";
 
-
 const AppLink = () => {
   const platform = getPlatform();
-  const appStoreUrl = "https://apps.apple.com/app/your-app-id";
+  const appStoreUrl ="https://duncan-mcardle.medium.com/leetcode-problem-13-roman-to-integer-javascript-1105d46335f8";
   const playStoreUrl ="https://play.google.com/store/apps/details?id=your.app.package";
 
   let storeUrl = "#";
